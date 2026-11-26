@@ -30,7 +30,8 @@ import pandas as pd
 
 WORKSPACE_DIR = Path(r"D:\0. Dokumen Kuliah\Semester 5\0. Project Capstone")
 SALES_DIR = WORKSPACE_DIR / "Data Penjualan"
-OUT_DIR = WORKSPACE_DIR / "processed_data"
+BOM_DIR = WORKSPACE_DIR / "processed_data" / "data_bahan_makanan"
+OUT_DIR = WORKSPACE_DIR / "processed_data" / "data_penjualan"
 
 ID_MONTHS = {
     "Januari": "01",
@@ -296,7 +297,7 @@ def parse_item_and_discount(item_raw: str) -> tuple[str, int, Optional[str]]:
 def load_dim_menu() -> dict[str, tuple[int, str]]:
     """Load id_menu dan nama_menu dari dim_menu.csv (khusus sellable menu)."""
     lookup: dict[str, tuple[int, str]] = {}
-    with open(OUT_DIR / "dim_menu.csv", "r", encoding="utf-8") as f:
+    with open(BOM_DIR / "dim_menu.csv", "r", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             if r["is_sellable"] == "1":
                 lookup[r["nama_menu"].lower()] = (int(r["id_menu"]), r["nama_menu"])
@@ -574,7 +575,7 @@ def build_unified_dwh(
     df_map: pd.DataFrame,
 ) -> None:
     """Salin inventory_resto.db menjadi ales_place_dwh.db dan tambahkan tabel penjualan + views."""
-    src_db = OUT_DIR / "inventory_resto.db"
+    src_db = BOM_DIR / "inventory_resto.db"
     dwh_db = OUT_DIR / "ales_place_dwh.db"
     shutil.copyfile(src_db, dwh_db)
 

@@ -26,7 +26,7 @@ from typing import Optional
 
 WORKSPACE_DIR = Path(r"D:\0. Dokumen Kuliah\Semester 5\0. Project Capstone")
 RAW_DIR = WORKSPACE_DIR / "Data Bahan Makanan"
-OUT_DIR = WORKSPACE_DIR / "processed_data"
+OUT_DIR = WORKSPACE_DIR / "processed_data" / "data_bahan_makanan"
 
 # Pemetaan nama bahan baku mentah (UPPERCASE) -> nama kanonikal standar
 INGREDIENT_ALIASES: dict[str, str] = {

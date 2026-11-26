@@ -3,7 +3,7 @@
 import sqlite3
 from pathlib import Path
 
-DB_PATH = Path(r"D:\0. Dokumen Kuliah\Semester 5\0. Project Capstone\processed_data\inventory_resto.db")
+DB_PATH = Path(r"D:\0. Dokumen Kuliah\Semester 5\0. Project Capstone\processed_data\data_bahan_makanan\inventory_resto.db")
 
 
 def main() -> None:
