@@ -1,0 +1,382 @@
+nama_item_kasir,kategori_kasir,total_qty_terjual,total_omzet_net,id_menu_resep,nama_menu_resep,match_status
+Redhot Beef Ramen,Ramen,2331.0,80984500.0,105,Ramen Redhot Beef,MAPPED_ALIAS
+Takoyaki Isi 6,Tako Oko Yakitori,1956.0,41956500.0,119,Takoyaki Isi 6,MAPPED_EXACT
+Le Mineral / Air Mineral,Minuman,1955.0,13535000.0,54,Air Mineral,MAPPED_ALIAS
+RedHot Chicken Katsu Ramen,Ramen,1355.0,45137500.0,104,Ramen Redhot Katsu,MAPPED_ALIAS
+BLIO Air Mineral,Minuman,1196.0,11950000.0,54,Air Mineral,MAPPED_ALIAS
+Mango Freeze,Mojito Smoothies Freeze,1189.0,28282000.0,75,Mango Freeze,MAPPED_EXACT
+Chicken Katsu Ramen,Ramen,1172.0,35137000.0,101,Ramen Chicken Katsu,MAPPED_ALIAS
+Ice Lemon Tea,Minuman,1112.0,17444000.0,57,Ice Lemon Tea,MAPPED_EXACT
+FREE ice cream,Pingku Ropang Pudding IC Scoop,1030.0,0.0,,,AMBIGUOUS_VARIANT
+Pingku Greentea,Pingku Ropang Pudding IC Scoop,965.0,29171000.0,1,Pingku Green Tea,MAPPED_ALIAS
+Tabom,Snack,945.0,14945000.0,129,Tabom,MAPPED_EXACT
+Sushi Aburi Salmon Mentai,Sushi,809.0,34081750.0,,,UNMAPPED_FNB
+Shiro Ichi Ramen,Ramen,809.0,26421000.0,111,Ramen Shiroichi,MAPPED_ALIAS
+Beef Curry Ramen,Ramen,800.0,26455000.0,109,Ramen Curry Beef,MAPPED_ALIAS
+Soyu Ramen Original,Ramen,760.0,17122000.0,100,Ramen Soyu,MAPPED_ALIAS
+Ramen Tomyam,Ramen,745.0,25699800.0,,,UNMAPPED_FNB
+Lychee Mojito,Mojito Smoothies Freeze,705.0,15830000.0,72,Mojito Leci,MAPPED_ALIAS
+Es Teh Pucuk Harum,Minuman,688.0,6882000.0,,,UNMAPPED_FNB
+Mango Juice,Varian Juice,665.0,15500000.0,,,UNMAPPED_FNB
+Sushi Hanamera,Sushi,663.0,21004200.0,113,Sushi Hanamera,MAPPED_EXACT
+Ocha Free Refill - Ice,Minuman,642.0,10099000.0,55,Ocha Refill,MAPPED_ALIAS
+Mango Smoothies,Mojito Smoothies Freeze,639.0,14193000.0,92,Manggo Smoothies,MAPPED_ALIAS
+Orange Juice,Varian Juice,619.0,10425000.0,,,UNMAPPED_FNB
+Chicken Katsu curry Ramen,Ramen,616.0,18447000.0,110,Ramen Curry Chicken Katsu,MAPPED_ALIAS
+Kulit Salmon Crispy - Pack,Pack Ekonomis,583.0,7887000.0,,,UNMAPPED_FNB
+Cheesy Fries,Snack,542.0,10390000.0,133,Cheesy Fries,MAPPED_EXACT
+Nasi Hot Plate Siram Chicken Katsu,Hotplate,520.0,15844000.0,45,HP Nasi Siram Chicken Katsu,MAPPED_ALIAS
+Extra Ice Cube,Minuman,505.0,1010000.0,,,UNMAPPED_FNB
+Pingku Vanilla,Pingku Ropang Pudding IC Scoop,467.0,11560900.0,3,Pingku Vanilla,MAPPED_EXACT
+Sushi Aburi Salmon Cheese,Sushi,466.0,20009000.0,,,UNMAPPED_FNB
+Nasi Hot Plate Siram Daging Sapi,Hotplate,457.0,14817000.0,47,HP Nasi Siram Sapi,MAPPED_ALIAS
+Strawberry Smoothies,Mojito Smoothies Freeze,455.0,10295000.0,94,Strawberry Smoothies,MAPPED_EXACT
+Takoyaki Mentai,Tako Oko Yakitori,454.0,10792000.0,,,UNMAPPED_FNB
+Gyozaa,Snack,446.0,11710000.0,,,UNMAPPED_FNB
+Siomay Goreng,Snack,432.0,8085000.0,131,Siomay Goreng,MAPPED_EXACT
+Greentea Shake,Drink Shake,431.0,11011000.0,,,UNMAPPED_FNB
+Ramen - Pelajar,Menu Pelajar,428.0,4603500.0,,,AMBIGUOUS_VARIANT
+Thai Tea,Minuman,422.0,9383000.0,63,Thai Tea,MAPPED_EXACT
+Extra Gurita,Ala Carte,405.0,1215000.0,,,UNMAPPED_FNB
+Sushi Kanimaki,Sushi,394.0,12122000.0,112,Sushi Kanimaki,MAPPED_EXACT
+Spicy Tori Paitan Chashu Ramen,Premium Menu,384.0,20062000.0,,,UNMAPPED_FNB
+Ocha Free Refill - Hot,Minuman,380.0,4823000.0,55,Ocha Refill,MAPPED_ALIAS
+Mango Mojito,Mojito Smoothies Freeze,380.0,8519000.0,74,Mojito Mango,MAPPED_ALIAS
+Leci Mint Tea,Mint Lemonade Greenity,372.0,7166000.0,69,Leci Mint Tea,MAPPED_EXACT
+Extra Baby Gurita,Ala Carte,371.0,1855000.0,,,UNMAPPED_FNB
+Nasi Hot Plate Daging Sapi Black Papper,Hotplate,354.0,12063000.0,48,HP Nasi Blackpepper Sapi,MAPPED_ALIAS
+Gyuniku Ramen,Ramen,346.0,10982000.0,102,Ramen Gyuniku,MAPPED_ALIAS
+Strawberry Juice,Varian Juice,346.0,7715000.0,,,UNMAPPED_FNB
+Pingku Mango,Pingku Ropang Pudding IC Scoop,344.0,9630000.0,2,Pingku Manggo,MAPPED_ALIAS
+Yaki Sosis,Paket 5K,343.0,1715000.0,,,UNMAPPED_FNB
+Dimsum Porsi,Snack,342.0,9234000.0,,,UNMAPPED_FNB
+Sweet Ice Tea - Pelajar,Menu Pelajar,342.0,1525500.0,,,AMBIGUOUS_VARIANT
+Dimsum Mentai,Snack,332.0,10125000.0,,,UNMAPPED_FNB
+Sushi Chicken Cheese Teriyaki,Sushi,318.0,12101000.0,,,UNMAPPED_FNB
+Nigiri Aleyujin,Nigiri Sushi,316.0,944000.0,,,UNMAPPED_FNB
+Strawberry Freeze,Mojito Smoothies Freeze,313.0,7600000.0,77,Strawberry Freeze,MAPPED_EXACT
+Tori Paitan Chashu Ramen,Premium Menu,288.0,14322000.0,,,UNMAPPED_FNB
+Extra Nasi - Donbury,Ala Carte,287.0,1695000.0,,,UNMAPPED_FNB
+Vanila oreo,Drink Shake,287.0,7789000.0,80,Oreo Blended,MAPPED_ALIAS
+Sushi Tempura Crispy Roll,Sushi,279.0,11610000.0,,,UNMAPPED_FNB
+Ramen Brisket,Premium Menu,273.0,16107000.0,,,UNMAPPED_FNB
+Strawberry Mojito,Mojito Smoothies Freeze,272.0,6140000.0,73,Mojito Strawberry,MAPPED_ALIAS
+Gyuniku don,Donburi Omurice,271.0,8599000.0,32,Donburi Gyuniku,MAPPED_ALIAS
+Okonomiyaki,Tako Oko Yakitori,265.0,6384000.0,114,Okonomiyaki Original,MAPPED_ALIAS
+Extra Katsu,Ala Carte,265.0,2119600.0,,,UNMAPPED_FNB
+Salmon Cheese Gunkan,Sushi,263.0,4745000.0,,,UNMAPPED_FNB
+Nigiri Kani Mayo,Nigiri Sushi,261.0,1450000.0,,,UNMAPPED_FNB
+Omurice Chicken Katsu,Donburi Omurice,259.0,7032000.0,97,Omurice Chicken Katsu,MAPPED_EXACT
+Lemon Mint Tea,Mint Lemonade Greenity,258.0,5066000.0,85,Lemon Mint,MAPPED_ALIAS
+Lychee Kult,Mixologist Kult,256.0,5695100.0,88,Leci Kult,MAPPED_ALIAS
+Nigiri Tamago Cheese,Nigiri Sushi,254.0,1422000.0,,,UNMAPPED_FNB
+Choco Prime,Drink Shake,242.0,5485000.0,81,Choco Prime,MAPPED_EXACT
+Kani Cheese Gunkan,Sushi,240.0,2138000.0,,,UNMAPPED_FNB
+Otak Otak Kulit Tahu,Snack,234.0,3507750.0,132,Otak-Otak,MAPPED_ALIAS
+Cau Katsu,Snack,232.0,6053500.0,,,AMBIGUOUS_VARIANT
+Curry katsudon,Donburi Omurice,229.0,6915000.0,31,Donburi Curry Katsu,MAPPED_ALIAS
+Chicken katsu Miso Ramen,Ramen,227.0,6957000.0,108,Ramen Miso Chicken Katsu,MAPPED_ALIAS
+Purple Breeze,Mixologist Kult,223.0,4386000.0,71,Purple Breeze,MAPPED_EXACT
+Kani Mentai Gunkan,Sushi,212.0,1480000.0,,,UNMAPPED_FNB
+Extra Mie - Ramen,Ala Carte,207.0,1033500.0,,,UNMAPPED_FNB
+Sushi Kanimaki - Cooking Class >15 Org,Sushi,199.0,3453000.0,112,Sushi Kanimaki,MAPPED_ALIAS
+Mozarella katsudon,Donburi Omurice,198.0,6282000.0,33,Donburi Mozaru Katsu,MAPPED_ALIAS
+Teh Tawar Panas,Minuman,198.0,1386000.0,,,UNMAPPED_FNB
+Yaki Dumpling,Paket 5K,196.0,980000.0,,,UNMAPPED_FNB
+RedHot Brastwurst Ramen,Ramen,194.0,6493000.0,106,Ramen Redhot Brastwust,MAPPED_ALIAS
+JOYDAY SWEET CORN,Joyday,194.0,776000.0,,,UNMAPPED_FNB
+Mozarella Okonomiyaki,Tako Oko Yakitori,193.0,5402000.0,117,Okonomiyaki Mozarella,MAPPED_ALIAS
+Ice Kopi Susu Gula Aren,Coffe,188.0,4713000.0,,,UNMAPPED_FNB
+Green Ocean,Mixologist Kult,188.0,3658000.0,70,Green Ocean,MAPPED_EXACT
+Mango Kult,Mixologist Kult,185.0,4084200.0,87,Manggo Kult,MAPPED_ALIAS
+Happy Duck -- Joy Day,Joyday,185.0,1295000.0,,,UNMAPPED_FNB
+Red Hot Ebi Furai Ramen,Ramen,183.0,7054500.0,,,UNMAPPED_FNB
+Sosis BBQ Gunkan,Sushi,181.0,1397500.0,,,UNMAPPED_FNB
+Beef Okonomiyaki,Tako Oko Yakitori,181.0,5067000.0,116,Okonomiyaki Beef,MAPPED_ALIAS
+Sosis Bakar Original,Snack,179.0,2685000.0,122,Sosis Ori,MAPPED_ALIAS
+Nasi Hot Plate Red Hot Chicken Katsu,Hotplate,178.0,5786000.0,46,HP Nasi Redhot Ayam,MAPPED_ALIAS
+Beef Teriyaki Bento,Bento,175.0,7333000.0,,,UNMAPPED_FNB
+Ebi Furai Ramen,Ramen,172.0,6176000.0,,,UNMAPPED_FNB
+Nasi Hot Plate Red Hot Daging Sapi,Hotplate,172.0,5824000.0,,,UNMAPPED_FNB
+Greentea Blended,Drink Shake,171.0,3798000.0,83,Green Tea Blended,MAPPED_ALIAS
+Vanilla Shake,Drink Shake,171.0,3933000.0,,,UNMAPPED_FNB
+Chicken Katsu Salad,Snack,170.0,3836000.0,135,Chicken Katsu Salad,MAPPED_EXACT
+Sushi Tuna Pedas,Sushi,167.0,6128000.0,,,UNMAPPED_FNB
+Scoope of IC Vanilla,Extra Minuman,166.0,833000.0,17,Vanilla Ice Cream,MAPPED_ALIAS
+Mie Hot Plate Siram Chiken Katsu,Hotplate,164.0,4722000.0,40,HP Mie Siram Katsu,MAPPED_ALIAS
+Nasi Hot Plate Chicken Katsu Black Papper,Hotplate,155.0,5078000.0,,,UNMAPPED_FNB
+Omurice Smoked Beef,Donburi Omurice,154.0,4218000.0,96,Omurice Smoked Beef,MAPPED_EXACT
+Strawberry Mint Tea,Mint Lemonade Greenity,148.0,2890000.0,91,Strawberry Mint Tea,MAPPED_EXACT
+Sweet Ice Tea,Minuman,148.0,1480000.0,56,Ice Tea,MAPPED_ALIAS
+Omurice Original,Donburi Omurice,138.0,3724000.0,95,Omurice,MAPPED_ALIAS
+Risol Dut Ragout Spesial,Risol Dut,137.0,3701000.0,,,UNMAPPED_FNB
+Lychee Smoothies,Mojito Smoothies Freeze,136.0,3162000.0,93,Leci Smoothies,MAPPED_ALIAS
+Beef Yakiniku Bento,Bento,136.0,5775000.0,,,UNMAPPED_FNB
+Redhot Beef Udon,Udon,131.0,5975000.0,,,UNMAPPED_FNB
+Udon Original,Udon Promo,128.0,3328000.0,,,UNMAPPED_FNB
+Kwetiaw Hot Plate Siram Daging Sapi,Hotplate,126.0,4017000.0,51,HP Kwetiaw Siram Sapi,MAPPED_ALIAS
+Tomato Juice,Varian Juice,124.0,2069000.0,59,Jus Tomat,MAPPED_ALIAS
+Ebi Furai curry Ramen,Ramen,121.0,4656000.0,,,UNMAPPED_FNB
+Chicken Yakiniku Bento,Bento,117.0,4664000.0,,,UNMAPPED_FNB
+Risol Dut Mix,Risol Dut,117.0,3510000.0,,,UNMAPPED_FNB
+Siomay Kuah,Snack,113.0,2260000.0,130,Siomay Kuah,MAPPED_EXACT
+Beef Curry Udon,Udon,109.0,4605000.0,,,UNMAPPED_FNB
+Mie Hot Plate Siram Daging Sapi,Hotplate,108.0,3348000.0,43,HP Mie Siram Sapi,MAPPED_ALIAS
+Strawberry Kult,Mixologist Kult,106.0,2332400.0,89,Strawberry Kult,MAPPED_EXACT
+Yakiniku,Shabu & Yakiniku,103.0,9407000.0,,,UNMAPPED_FNB
+Mango Mint Tea,Mint Lemonade Greenity,102.0,1996000.0,90,Manggo Mint Tea,MAPPED_ALIAS
+Niku Udon,Udon,100.0,4134000.0,,,UNMAPPED_FNB
+Hiyashi Cuka Goma ( Mie Dingin Musim Panas ),Ramen,100.0,735000.0,,,UNMAPPED_FNB
+Sushi Karaage Roll,Sushi,94.0,1930000.0,,,UNMAPPED_FNB
+Chicken Katsu Udon,Udon,92.0,3632000.0,,,UNMAPPED_FNB
+Americano Ice,Coffe,92.0,1656000.0,,,UNMAPPED_FNB
+Yaki Udon Beef,Udon,91.0,3412400.0,,,UNMAPPED_FNB
+Cau Katsu Mix,Snack,90.0,2628000.0,,,AMBIGUOUS_VARIANT
+Lemonade,Mint Lemonade Greenity,90.0,1512000.0,86,Lemonade,MAPPED_EXACT
+Frutti Duo Grape STwby - Joy Day,Joyday,88.0,528000.0,,,UNMAPPED_FNB
+Gyumiso Ramen,Ramen,87.0,2690000.0,107,Ramen Gyumiso Beef,MAPPED_ALIAS
+YAKITORI ENOKI BEEF - Garlic,Tako Oko Yakitori,87.0,2871000.0,,,UNMAPPED_FNB
+Es Susu Joy Day,Joyday,86.0,430000.0,,,UNMAPPED_FNB
+Sushi Unagi,Sushi,86.0,4220000.0,,,UNMAPPED_FNB
+Orange juice event,event,86.0,400000.0,,,UNMAPPED_FNB
+Chicken Katsu Okonomiyaki,Tako Oko Yakitori,85.0,2274000.0,115,Okonomiyaki Chicken,MAPPED_ALIAS
+Chicken Teriyaki bento,Bento,84.0,3380000.0,,,UNMAPPED_FNB
+Extra Tempura Ebi - Ramen,Ala Carte,84.0,1278000.0,,,UNMAPPED_FNB
+Scoope of IC Greentea,Extra Minuman,83.0,670000.0,18,Green Tea Ice Cream,MAPPED_ALIAS
+Shabu Shabu Kuah Tomyam,Shabu & Yakiniku,83.0,8085000.0,,,UNMAPPED_FNB
+Shabu-Shabu Kuah Original,Shabu & Yakiniku,83.0,7591000.0,,,UNMAPPED_FNB
+Coffee Latte Ice,Coffe,82.0,2088000.0,,,UNMAPPED_FNB
+Ropang Coklat,Pingku Ropang Pudding IC Scoop,81.0,1430000.0,7,Ropang Cokelat,MAPPED_ALIAS
+Risol Dut Smoked Beef,Risol Dut,81.0,2603000.0,,,UNMAPPED_FNB
+Teh Manis Panas,Minuman,80.0,640000.0,,,UNMAPPED_FNB
+Hot Choco Latte,Minuman,80.0,1741000.0,67,ChocoLatte,MAPPED_ALIAS
+Paket IFTAR Pelajar,Paket Iftar,80.0,2400000.0,,,UNMAPPED_FNB
+Extra Jamur Enoki - Yakiniku,Ala Carte,78.0,385000.0,,,UNMAPPED_FNB
+Afogato Coffe Ice,Coffe,78.0,1682000.0,,,UNMAPPED_FNB
+Omurice Beef,Donburi Omurice,78.0,2262000.0,98,Omurice Beef,MAPPED_EXACT
+Hot Greentea Latte,Minuman,78.0,1694000.0,66,GreenTea Latte,MAPPED_ALIAS
+Brastwurst Ramen,Ramen,77.0,2342000.0,103,Ramen Brastwust,MAPPED_ALIAS
+Sushi Hanamera - Cooking Class >15,Sushi,76.0,1520000.0,113,Sushi Hanamera,MAPPED_ALIAS
+Hazelnut Latte Ice,Coffe,75.0,2110000.0,,,UNMAPPED_FNB
+Kwetiaw Hot Plate Siram Chicken Katsu,Hotplate,74.0,2204000.0,49,HP Kwetiaw Siram Chicken Katsu,MAPPED_ALIAS
+Sushi Green Tuna,Sushi,72.0,2591000.0,,,UNMAPPED_FNB
+Ebi Furai Miso Ramen,Ramen,71.0,2651000.0,,,UNMAPPED_FNB
+Beef Mentai Bomb,Nigiri Sushi,69.0,2101000.0,,,UNMAPPED_FNB
+Kwetiaw Hot Plate Daging Sapi Black Pepper,Hotplate,68.0,2305000.0,52,HP Kwetiaw Blackpepper Sapi,MAPPED_ALIAS
+Brisket Don,Premium Menu,65.0,3835000.0,,,UNMAPPED_FNB
+Abura Ramen Chicken Katsu,Ramen,64.0,1905000.0,,,UNMAPPED_FNB
+Tuna Mayo Gunkan,Sushi,61.0,1062000.0,,,UNMAPPED_FNB
+Abura Ramen Beef,Ramen,60.0,1914000.0,,,UNMAPPED_FNB
+Risol Dut Jando,Risol Dut,60.0,1714000.0,,,UNMAPPED_FNB
+Extra Beef - Ramen / HP,Ala Carte,60.0,544150.0,,,UNMAPPED_FNB
+Salted Caramel Creamy,Minuman,59.0,1940000.0,,,UNMAPPED_FNB
+Fruits Galaxy - JoyDay,Joyday,59.0,354000.0,,,UNMAPPED_FNB
+Chicken Cheese Gunkan,Sushi,58.0,1013000.0,,,UNMAPPED_FNB
+Mie Hot Plate Red Hot Daging Sapi,Hotplate,56.0,1774000.0,,,UNMAPPED_FNB
+Risol Dut Ayam Pedas,Risol Dut,56.0,1874000.0,,,UNMAPPED_FNB
+Brisket Ala Carte,Premium Menu,55.0,1430000.0,,,UNMAPPED_FNB
+Ramen Anak,Bento,54.0,1330000.0,,,UNMAPPED_FNB
+Cappucino Ice,Coffe,53.0,1308000.0,,,UNMAPPED_FNB
+Lemon Mint,Mint Lemonade Greenity,53.0,1036000.0,85,Lemon Mint,MAPPED_EXACT
+Set Gyuniku Shogayaki,Premium Donbury,53.0,3445000.0,,,UNMAPPED_FNB
+Mie Hot Plate Red Hot Chiken Katsu,Hotplate,51.0,1565000.0,41,HP Mie Redhot Ayam,MAPPED_ALIAS
+Yaki Udon Seafood,Udon,51.0,1922000.0,,,UNMAPPED_FNB
+Abura Original edition Anniversary,Ramen,51.0,154000.0,,,UNMAPPED_FNB
+Mie Hot Plate Daging Sapi Black Papper,Hotplate,50.0,1652000.0,44,HP Mie Blackpepper Sapi,MAPPED_ALIAS
+Ramen Promo 12,Promo 12,49.0,615000.0,,,UNMAPPED_FNB
+Joyday Choco Berry,Joyday,48.0,288000.0,,,UNMAPPED_FNB
+Redhot Chicken Katsu Udon,Udon,48.0,2044000.0,,,UNMAPPED_FNB
+Kwetiaw Hot Plate Red Hot Chicken Katsu,Hotplate,47.0,1470000.0,50,HP Kwetiaw Redhot Ayam,MAPPED_ALIAS
+Joyday Mochi Chocolate,Joyday,47.0,329000.0,,,UNMAPPED_FNB
+Ropang Chocomaltine,Pingku Ropang Pudding IC Scoop,47.0,826000.0,6,Ropang Chocomaltine,MAPPED_EXACT
+YAKITORI TORI - AYAM Garlic,Tako Oko Yakitori,46.0,1012000.0,,,UNMAPPED_FNB
+Kwetiaw Hot Plate Red Hot Daging Sapi,Hotplate,46.0,1534000.0,,,UNMAPPED_FNB
+Chicken Katsu Curry Udon,Udon,45.0,1887000.0,,,UNMAPPED_FNB
+Americano Hot,Coffe,45.0,735000.0,,,UNMAPPED_FNB
+Caramel Latte Ice,Coffe,44.0,1244000.0,,,UNMAPPED_FNB
+Extra Telur Dadar/Ceplok,Ala Carte,43.0,172000.0,,,UNMAPPED_FNB
+Sushi Gede Pangrango Vulcano,Sushi,43.0,400000.0,,,UNMAPPED_FNB
+Vanilla Blend,Drink Shake,43.0,869000.0,78,Vanilla Blend,MAPPED_EXACT
+Shabu Shabu Mix,Shabu & Yakiniku,43.0,6075000.0,,,UNMAPPED_FNB
+Ropang Keju,Pingku Ropang Pudding IC Scoop,40.0,710000.0,9,Ropang Keju,MAPPED_EXACT
+Omurice Sosis Brastwurst,Donburi Omurice,40.0,1150000.0,99,Omurice Brastwust,MAPPED_ALIAS
+Okosama Lunch - A,Bento,40.0,1370000.0,,,UNMAPPED_FNB
+Greenity,Mint Lemonade Greenity,40.0,691000.0,68,Greenity,MAPPED_EXACT
+Beef Mayo Bomb,Nigiri Sushi,39.0,1140000.0,,,UNMAPPED_FNB
+Scoope of IC Mango,Extra Minuman,39.0,233000.0,,,UNMAPPED_FNB
+Extra Oreo - Minuman,Extra Minuman,38.0,190000.0,,,UNMAPPED_FNB
+Extra Brastwurst,Ala Carte,38.0,353000.0,,,UNMAPPED_FNB
+Cotton Candy - Joy Day,Joyday,38.0,228000.0,,,UNMAPPED_FNB
+Lychee Mint Tea,Mint Lemonade Greenity,36.0,792000.0,69,Leci Mint Tea,MAPPED_ALIAS
+JOYDAY KOKOMI,Joyday,35.0,175000.0,,,UNMAPPED_FNB
+Pernak Pernik SANRIO,Produk Pinnkishfun,35.0,498450.0,,,UNMAPPED_NON_FNB_MERCH
+"Yuzu & Blewah ""Shake""",Minuman,35.0,771000.0,,,UNMAPPED_FNB
+Coffee Latte Hot,Coffe,35.0,842000.0,,,UNMAPPED_FNB
+CRUNCHY CHOCO BLUEBERRY - Joy Day,Joyday,34.0,340000.0,,,UNMAPPED_FNB
+Risol Dut Smoke Beef - Pelajar,Menu Pelajar,34.0,218000.0,,,UNMAPPED_FNB
+Lalava - Joy Day,Joyday,34.0,238000.0,,,UNMAPPED_FNB
+Sushi Crabstik Roll,Sushi,33.0,825000.0,,,UNMAPPED_FNB
+Risol Dut Ayam Pedas - Pelajar,Menu Pelajar,33.0,177000.0,,,UNMAPPED_FNB
+Shiroichi Udon,Udon,33.0,1434000.0,,,UNMAPPED_FNB
+JOYDAY CRUNCHY CHOCOLATE MALT,Joyday,33.0,264000.0,,,UNMAPPED_FNB
+Takoyaki - Pelajar,Menu Pelajar,32.0,297000.0,,,AMBIGUOUS_VARIANT
+Tabom - Pelajar,Menu Pelajar,32.0,288000.0,,,UNMAPPED_FNB
+Udon Untuk Ibu,Udon Promo,31.0,778000.0,,,UNMAPPED_FNB
+Strawberry Mint Tea 1 Liter,Minuman Rame-rame,31.0,1550000.0,,,UNMAPPED_FNB
+Unagi Don,Premium Menu,31.0,1780000.0,,,UNMAPPED_FNB
+Ropang Greentea,Pingku Ropang Pudding IC Scoop,31.0,544000.0,8,Ropang Greentea,MAPPED_EXACT
+Cappucino Hot,Coffe,31.0,742000.0,,,UNMAPPED_FNB
+Extra Telur (1/2 butir) - Ramen,Ala Carte,31.0,123500.0,,,UNMAPPED_FNB
+"Slime ""M""",Produk Pinnkishfun,30.0,769500.0,,,UNMAPPED_NON_FNB_MERCH
+Kacang Ijo - JoyDay,Joyday,30.0,240000.0,,,UNMAPPED_FNB
+Crunchy Sweet Strawberry - Joy Day,Joyday,29.0,290000.0,,,UNMAPPED_FNB
+Blueberry Crush - Joy Day,Joyday,29.0,232000.0,,,UNMAPPED_FNB
+Crunchy Double Chocolate - Joy Day,Joyday,28.0,280000.0,,,UNMAPPED_FNB
+Extra Bobba Manggo,Extra Minuman,27.0,162000.0,,,UNMAPPED_FNB
+Teh Tawar Ice,Minuman,26.0,182000.0,,,UNMAPPED_FNB
+Tropical Duo Joy Day,Joyday,26.0,130000.0,,,UNMAPPED_FNB
+Mie Hot Plate Chiken Katsu Black Papper,Hotplate,25.0,805000.0,42,HP Mie Blackpepper Ayam,MAPPED_ALIAS
+Extra Beef - Shabu,Ala Carte,24.0,192000.0,,,UNMAPPED_FNB
+Kwetiaw Hot Plate Chiken Katsu Black Pepper,Hotplate,24.0,788000.0,53,HP Kwetiaw Blackpepper Ayam,MAPPED_ALIAS
+IFTAR 2A.1,Paket Iftar,24.0,1920000.0,,,UNMAPPED_FNB
+Takoyaki Mentai - Pelajar,Menu Pelajar,24.0,256500.0,,,UNMAPPED_FNB
+Dolce Cream Black Forest - JoyDay,Joyday,23.0,276000.0,,,UNMAPPED_FNB
+Crispy Nori,Pack Ekonomis,23.0,345000.0,,,UNMAPPED_FNB
+Matcha Premium Joy Day,Joyday,23.0,414000.0,,,UNMAPPED_FNB
+Set Chicken Shogayaki,Premium Donbury,22.0,1320000.0,,,UNMAPPED_FNB
+Orange 1 Liter,Minuman Rame-rame,22.0,1100000.0,,,UNMAPPED_FNB
+Joyday Choco Corn,Joyday,22.0,132000.0,,,UNMAPPED_FNB
+Sosis BBQ Gunkan - Pelajar,Menu Pelajar,22.0,292500.0,,,UNMAPPED_FNB
+Barbeque Katsudon,Donburi Omurice,21.0,630000.0,,,UNMAPPED_FNB
+Bento Mini,Bento,21.0,0.0,,,UNMAPPED_FNB
+Sushi Uramaki Tamago Roll,Sushi,21.0,630000.0,,,UNMAPPED_FNB
+Ropang Mix,Pingku Ropang Pudding IC Scoop,20.0,426000.0,,,AMBIGUOUS_VARIANT
+Kani Cheese Gunkan - Pelajar,Menu Pelajar,19.0,250500.0,,,UNMAPPED_FNB
+Charge Dekorasi,Paket Acara,19.0,850000.0,,,UNMAPPED_FNB
+Risol Dut Smoked Beef Frozzen - Pack Ekonomis,Risol Dut,18.0,538000.0,,,UNMAPPED_FNB
+Joyday Mochi Strawberry,Joyday,18.0,108000.0,,,UNMAPPED_FNB
+"Winter Milk Tea ""Shake""",Minuman,18.0,540000.0,,,UNMAPPED_FNB
+Lemon Mint Tea 1 Liter,Minuman Rame-rame,17.0,850000.0,,,UNMAPPED_FNB
+Extra Ayam Fillet - Shabu,Ala Carte,16.0,96000.0,,,UNMAPPED_FNB
+Risol Dut Jando - Pelajar,Menu Pelajar,16.0,80000.0,,,UNMAPPED_FNB
+Extra Telur Omega - Ramen,Ala Carte,16.0,99500.0,,,UNMAPPED_FNB
+"Mini Slime ""S""",Produk Pinnkishfun,16.0,224700.0,,,UNMAPPED_NON_FNB_MERCH
+Double Espresso,Coffe,15.0,225000.0,,,UNMAPPED_FNB
+Choco Fun Joy Day,Joyday,15.0,75000.0,,,UNMAPPED_FNB
+SP Semi LUX,Produk Pinnkishfun,15.0,354750.0,,,UNMAPPED_NON_FNB_MERCH
+Hazelnut Latte Hot,Coffe,15.0,391000.0,,,UNMAPPED_FNB
+Okosama Lunch - B,Bento,15.0,570000.0,,,UNMAPPED_FNB
+YAKITORI SALMON - Garlic,Tako Oko Yakitori,15.0,600000.0,,,UNMAPPED_FNB
+Pucuk Watermelon,Minuman,14.0,360000.0,,,UNMAPPED_FNB
+Crunchy Blueberry Yoghurt - Joy Day,Joyday,14.0,140000.0,,,UNMAPPED_FNB
+Barbeque Katsu Don,Donburi Omurice,14.0,426000.0,,,UNMAPPED_FNB
+Caramel Latte Hot,Coffe,13.0,349000.0,,,UNMAPPED_FNB
+Extra Enoki Smoked Beef - Yakiniku,Ala Carte,13.0,195000.0,,,UNMAPPED_FNB
+"P Random ""S""",Produk Pinnkishfun,13.0,166500.0,,,UNMAPPED_NON_FNB_MERCH
+Charge Balon,Paket Acara,13.0,78000.0,,,UNMAPPED_FNB
+Salmon Cheese Gunkan - Pelajar,Menu Pelajar,13.0,162000.0,,,UNMAPPED_FNB
+Crunchy Double Delight - Joy Day,Joyday,13.0,130000.0,,,UNMAPPED_FNB
+SP Luxury,Produk Pinnkishfun,12.0,379050.0,,,UNMAPPED_NON_FNB_MERCH
+Siomay Goreng - Pelajar,Menu Pelajar,12.0,108000.0,,,AMBIGUOUS_VARIANT
+Extra Ayam Chashu - Ramen,Ala Carte,12.0,189000.0,,,UNMAPPED_FNB
+YAKITORI AYAM - Garlic,Tako Oko Yakitori,12.0,264000.0,,,UNMAPPED_FNB
+"Squishy ""S""",Produk Pinnkishfun,12.0,271750.0,,,UNMAPPED_NON_FNB_MERCH
+""" Toys M""",Produk Pinnkishfun,11.0,353500.0,,,UNMAPPED_NON_FNB_MERCH
+Kani Mentai Gunkan - Pelajar,Menu Pelajar,11.0,145500.0,,,UNMAPPED_FNB
+Extra Pakcoy - Ramen,Ala Carte,11.0,33000.0,,,UNMAPPED_FNB
+SP Standart,Produk Pinnkishfun,11.0,198000.0,,,UNMAPPED_NON_FNB_MERCH
+Jepit Rambut,Produk Pinnkishfun,10.0,142650.0,,,UNMAPPED_NON_FNB_MERCH
+Basreng Original,Basreng,10.0,102000.0,,,UNMAPPED_FNB
+Extra Jagung Manis - Ramen,Ala Carte,10.0,32000.0,,,UNMAPPED_FNB
+Risol Dut Ragout Special - Pelajar,Menu Pelajar,10.0,67000.0,,,UNMAPPED_FNB
+"""Viral M""",Produk Pinnkishfun,10.0,332000.0,,,UNMAPPED_NON_FNB_MERCH
+Extra Boba Strawberry,Extra Minuman,10.0,72000.0,,,UNMAPPED_FNB
+JOYDAY COOKIES CREAM,Joyday,10.0,100000.0,,,UNMAPPED_FNB
+Extra Beef - Yakiniku,Ala Carte,9.0,135000.0,,,UNMAPPED_FNB
+Double Expresso,Coffe,9.0,171000.0,,,UNMAPPED_FNB
+Blindbox Premium,Produk Pinnkishfun,9.0,1008000.0,,,UNMAPPED_NON_FNB_MERCH
+Suprise Bag Toys L,Produk Pinnkishfun,9.0,531000.0,,,UNMAPPED_NON_FNB_MERCH
+"Squishy ""L""",Produk Pinnkishfun,9.0,336000.0,,,UNMAPPED_NON_FNB_MERCH
+Scrunchie,Produk Pinnkishfun,9.0,78500.0,,,UNMAPPED_NON_FNB_MERCH
+Extra Telur - Ramen,Ala Carte,8.0,16000.0,,,UNMAPPED_FNB
+Extra Mozarella,Ala Carte,8.0,72000.0,,,UNMAPPED_FNB
+Risol Dut MIX Frozen - Pack Ekonomis,Risol Dut,8.0,412000.0,,,UNMAPPED_FNB
+Smoked Beef - Ala Carte,Ala Carte,7.0,35000.0,,,UNMAPPED_FNB
+IFTAR 2A.2,Paket Iftar,7.0,560000.0,,,UNMAPPED_FNB
+Silky Puding Coklat,Pingku Ropang Pudding IC Scoop,7.0,35000.0,19,Silky Pudding Coklat,MAPPED_ALIAS
+Extra Wortel - Ramen,Ala Carte,7.0,14000.0,,,UNMAPPED_FNB
+Yoon Seri Doll,Produk Pinnkishfun,7.0,327250.0,,,UNMAPPED_NON_FNB_MERCH
+Basreng Pedas,Basreng,7.0,93000.0,,,UNMAPPED_FNB
+Extra Crab Stick - Shabu,Ala Carte,7.0,35000.0,,,UNMAPPED_FNB
+Risol Dut Ragout Ayam Frozzen - Pack Ekonomis,Risol Dut,6.0,198000.0,,,UNMAPPED_FNB
+Extra Crab Stick - Ramen,Ala Carte,6.0,13500.0,,,UNMAPPED_FNB
+Stationary SANRIO Pack,Produk Pinnkishfun,6.0,240000.0,,,UNMAPPED_NON_FNB_MERCH
+Extra Baso Salmon -Shabu,Ala Carte,6.0,30000.0,,,UNMAPPED_FNB
+"Slime Kit ""M""",Produk Pinnkishfun,6.0,351000.0,,,UNMAPPED_NON_FNB_MERCH
+Lemonade 1 Liter,Minuman Rame-rame,6.0,300000.0,,,UNMAPPED_FNB
+IFTAR 2A.3,Paket Iftar,6.0,480000.0,,,UNMAPPED_FNB
+IFTAR 4A.2,Paket Iftar,6.0,888000.0,,,UNMAPPED_FNB
+Extra Kuah Tomyam,Ala Carte,6.0,30000.0,,,UNMAPPED_FNB
+"Squishy ""XL"" Premium",Produk Pinnkishfun,6.0,390000.0,,,UNMAPPED_NON_FNB_MERCH
+Extra Sawi Putih - Shabu,Ala Carte,6.0,18000.0,,,UNMAPPED_FNB
+Extra Pakcoy - Shabu,Ala Carte,6.0,18000.0,,,UNMAPPED_FNB
+IFTAR 2B.1,Paket Iftar,5.0,545000.0,,,UNMAPPED_FNB
+Extra Silky Puding Mango,Extra Minuman,5.0,25000.0,21,Silky Pudding Manggo,MAPPED_ALIAS
+Risol Dut Ayam Pedas Frozzen - Pack Ekonomis,Risol Dut,5.0,151000.0,,,UNMAPPED_FNB
+Extra Keju,Ala Carte,5.0,25000.0,,,UNMAPPED_FNB
+IFTAR 8A.4,Paket Iftar,5.0,1480000.0,,,UNMAPPED_FNB
+"Promo ""P1""",Produk Pinnkishfun,5.0,50000.0,,,UNMAPPED_NON_FNB_MERCH
+Extra Ayam Fillet - Yakiniku,Ala Carte,5.0,40000.0,,,UNMAPPED_FNB
+Extra Chikuwa - Shabu,Ala Carte,5.0,25000.0,,,UNMAPPED_FNB
+Zaru Ramen Salmon Skin,Ramen,4.0,0.0,,,UNMAPPED_FNB
+CRUNCHY CHOCO LAVA - Joy Day,Joyday,4.0,32000.0,,,UNMAPPED_FNB
+Level 4 - Redhot,Ramen,4.0,16000.0,,,UNMAPPED_FNB
+Otak otak Kulit Tahu - Pelajar,Menu Pelajar,4.0,36000.0,,,AMBIGUOUS_VARIANT
+Extra Chikuwa - Ramen,Ala Carte,4.0,8000.0,,,UNMAPPED_FNB
+Extra Baso Salmon - Ramen,Ala Carte,4.0,11000.0,,,UNMAPPED_FNB
+"Stuff ""M""",Produk Pinnkishfun,4.0,192000.0,,,UNMAPPED_NON_FNB_MERCH
+Risol Dut Jando Frozzen - Pack Ekonomis,Risol Dut,3.0,102000.0,,,UNMAPPED_FNB
+IFTAR 8A.3,Paket Iftar,3.0,888000.0,,,UNMAPPED_FNB
+IFTAR 4A.3,Paket Iftar,3.0,444000.0,,,UNMAPPED_FNB
+Roti Panggang,Snack,3.0,54000.0,,,UNMAPPED_FNB
+IFTAR 2A.4,Paket Iftar,3.0,240000.0,,,UNMAPPED_FNB
+Air Mineral Hangat,Minuman,3.0,15000.0,54,Air Mineral,MAPPED_ALIAS
+Lip Vinyl OMG,Produk Pinnkishfun,3.0,97500.0,,,UNMAPPED_NON_FNB_MERCH
+IFTAR 2B.4,Paket Iftar,2.0,218000.0,,,UNMAPPED_FNB
+IFTAR 4B.2,Paket Iftar,2.0,292000.0,,,UNMAPPED_FNB
+Gyuniku Ramen + Lip Vinyl OMG = 65.000,Promo,2.0,130000.0,,,UNMAPPED_FNB
+Slime Act,Produk Pinnkishfun,2.0,24000.0,,,UNMAPPED_NON_FNB_MERCH
+MINI SLIME,Produk Pinnkishfun,2.0,16600.0,,,UNMAPPED_NON_FNB_MERCH
+Level 5 - Redhot,Ramen,2.0,8000.0,,,UNMAPPED_FNB
+Extra Silky Puding Green Tea,Extra Minuman,2.0,10000.0,20,Silky Pudding Greentea,MAPPED_ALIAS
+Extra Silky Puding Chocolate,Extra Minuman,2.0,10000.0,19,Silky Pudding Coklat,MAPPED_ALIAS
+Silky Puding Greentea,Pingku Ropang Pudding IC Scoop,2.0,10000.0,20,Silky Pudding Greentea,MAPPED_ALIAS
+Silky Puding Mangga,Pingku Ropang Pudding IC Scoop,2.0,10000.0,21,Silky Pudding Manggo,MAPPED_ALIAS
+IFTAR 4A.1,Paket Iftar,2.0,296000.0,,,UNMAPPED_FNB
+IFTAR 4B.1,Paket Iftar,2.0,292000.0,,,UNMAPPED_FNB
+Ace M,Produk Pinnkishfun,2.0,74700.0,,,UNMAPPED_NON_FNB_MERCH
+"Slime Kit ""Dus""",Produk Pinnkishfun,2.0,140000.0,,,UNMAPPED_NON_FNB_MERCH
+Premice Almond Caramel - Joy Day,Joyday,1.0,18000.0,,,UNMAPPED_FNB
+Paket HAYAMI,Paket Acara,1.0,254000.0,,,UNMAPPED_FNB
+JOYDAY CHOCO BLUEBERRY,Joyday,1.0,8000.0,,,UNMAPPED_FNB
+Level 2 - Redhot Ramen,Minuman,1.0,0.0,,,UNMAPPED_FNB
+Level 4 - Ramen Redhot,Ramen,1.0,4000.0,,,UNMAPPED_FNB
+Tuna Mayo Gunkan - Pelajar,Menu Pelajar,1.0,12000.0,,,UNMAPPED_FNB
+IFTAR 6B.1,Paket Iftar,1.0,218000.0,,,UNMAPPED_FNB
+IFTAR 6A.2,Paket Iftar,1.0,224000.0,,,UNMAPPED_FNB
+Extra Otak-otak - Shabu,Ala Carte,1.0,7000.0,,,UNMAPPED_FNB
+Extra Silky Puding Taro,Extra Minuman,1.0,5000.0,22,Silky Pudding Taro,MAPPED_ALIAS
+IFTAR 6A.1,Paket Iftar,1.0,224000.0,,,UNMAPPED_FNB
+IFTAR 4A.4,Paket Iftar,1.0,148000.0,,,UNMAPPED_FNB
+IFTAR 2B.3,Paket Iftar,1.0,109000.0,,,UNMAPPED_FNB
+Gyuniku Ramen - OMG,Ramen,1.0,32500.0,,,UNMAPPED_FNB
+IFTAR 6B.2,Paket Iftar,1.0,218000.0,,,UNMAPPED_FNB
+Red Hot Ramen Promo Grab,Ramen,1.0,30000.0,,,UNMAPPED_FNB
+Silky Puding Taro,Pingku Ropang Pudding IC Scoop,1.0,5000.0,22,Silky Pudding Taro,MAPPED_ALIAS
+"Slime Kado ""B""",Produk Pinnkishfun,1.0,42500.0,,,UNMAPPED_NON_FNB_MERCH
+"Slime ""XL""",Produk Pinnkishfun,1.0,55000.0,,,UNMAPPED_NON_FNB_MERCH
+Chicken Cheese Gunkan - Pelajar,Menu Pelajar,1.0,12000.0,,,UNMAPPED_FNB
+Sushi AIKO,Sushi,1.0,199000.0,,,UNMAPPED_FNB
+Sushi Pangrango Vulcano,Sushi,1.0,0.0,,,UNMAPPED_FNB
+Choco Berry Bear,Produk Pinnkishfun,1.0,37000.0,,,UNMAPPED_NON_FNB_MERCH
+Sushi AZUMI,Sushi,1.0,185000.0,,,UNMAPPED_FNB

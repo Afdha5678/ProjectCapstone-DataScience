@@ -1,0 +1,192 @@
+,,,,,
+,,,,,
+,SAYUR,,,,
+No,Bahan, Harga , Kemasan , Satuan , Harga Satuan 
+1, BAWANG BOMBAY ,"  30,000 ","  1,000 ", gram ,  30 
+2, BAWANG DAUN ,"  20,000 ","  1,000 ", gram ,  20 
+3, BAWANG PUTIH ,"  40,000 ","  1,000 ", gram ,  40 
+4, BERAS ,"  325,000 ","  25,000 ", gram ,  13 
+6, CENGEK DOMBA ,"  5,000 ",  100 , gram ,  50 
+7, DAUN JERUK ,"  2,000 ",  20 , gram ,  100 
+8, ES BATU ,"  20,000 ","  19,000 ", liter ,  1.053 
+9, GALON ,"  5,000 ","  19,000 ", liter ,  0.263 
+10, GAS ,"  77,000 ","  5,500 ", gram ,  14 
+11, JAHE ,"  5,000 ",  250 , gram ,  20 
+12, JAGUNG MANIS ,"  5,000 ",  250 , gram ,  20 
+13, JAGUNG SEMI ,"  15,000 ",  500 , gram ,  30 
+14, JERUK PERAS ,"  12,000 ","  1,000 ", gram ,  12 
+15, KEMBANG KOL ,"  32,000 ","  1,000 ", gram ,  32 
+16, KOL ,"  12,000 ","  1,000 ", gram ,  12 
+17, LEMON BUAH ,"  20,000 ","  1,000 ", gram ,  20 
+18, MENTIMUN ,"  12,000 ","  1,000 ", gram ,  12 
+19, PAKCOY HIDROFONIK ,"  20,000 ","  1,000 ", gram ,  20 
+21, PAPRIKA ,"  65,000 ",  500 , gram ,  130 
+22, PISANG GALEK ,"  14,000 ","  1,000 ", gram ,  14 
+23, ROTI BURGER BLACK ,"  12,000 ",  6 , pcs ,"  2,000 "
+24, ROTI BURGER RED ,"  12,000 ",  6 , pcs ,"  2,000 "
+25, ROTI TAWAR  ,"  13,000 ",  9 , pcs ,"  1,444 "
+26, SALADA ,"  6,000 ",  100 , gram ,  60 
+27, SELEDRI ,"  14,000 ",  250 , gram ,  56 
+29, STRAWBERRY BUAH ,"  10,000 ",  12 , gram ,  833 
+30, TAHU ,"  7,000 ",  10 , pcs ,  700 
+31, TELUR ,"  335,000 ",  220 , pcs ,"  1,523 "
+32, TOMAT ,"  16,000 ","  1,000 ", gram ,  16 
+33, TULANG BALUNG ,"  30,000 ","  1,500 ", gram ,  20 
+34, WORTEL ,"  20,000 ","  1,000 ", gram ,  20 
+,,,,,
+,,,,,
+,TOKO HAI & FEI,,,,
+ No , Bahan , Harga , Quantity , Satuan , Harga Satuan 
+  1 , ANTAKA ,"  5,000 ",  100 ,gram,  50 
+  4 , BACKING POWDER ,"  4,500 ",45,gram,100
+  5 , BIJI SELASIH ,"  30,000 ",  250 ,gram,  120 
+  6 , BUBLE ,"  35,000 ","  1,000 ",gram,  35 
+  7 , CABE BUBUK ,"  68,000 ","  1,000 ",gram,  68 
+  8 , CARAMEL TOPPING  ,"  30,000 ",  350 ,gram,  86 
+  9 , CENGKEH ,"  25,000 ",  100 ,gram,  250 
+  10 , CETAKAN PUDING ,"  7,500 ",  50 ,pcs,  150 
+  11 , CHOCOCHIP ,"  16,000 ",  250 ,gram,  64 
+  12 , COCOA POWDER ,"  15,000 ",  45 ,gram,  333 
+  14 , CUKA BERAS ,"  20,000 ",  600 ,ml,  33 
+  15 , CUP GELAS ,"  12,000 ",  50 ,pcs,  240 
+  16 , CURRY BLOCK ,"  280,000 ","  1,000 ",gram,  280 
+  17 , DAIRY CHARM ,"  10,000 ",  500 ,gram,  20 
+  18 , SUSUS DANCOW FULL CREAM ,"  42,000 ",  400 ,gram,  105 
+  19 , DIAMOND ,"  14,000 ","  1,000 ",ml,  14 
+  20 , ELMER ANGGUR ,"  200,000 ","  5,000 ",gram,  40 
+  22 , ELMER BUBLE GUM ,"  200,000 ","  5,000 ",gram,  40 
+  23 , ELMER CHOCOMALTINE ,"  320,000 ","  5,000 ",gram,  64 
+  24 , ELMER COKELAT  ,"  230,000 ","  5,000 ",gram,  46 
+  25 , ELMER GREENTEA ,"  220,000 ","  5,000 ",gram,  44 
+  26 , FN ,"  15,000 ",  380 ,gram,  39 
+  27 , GARAM ,"  6,500 ",  100 ,gram,  65 
+  28 , GULA TEPUNG ,"  7,500 ",  350 ,gram,  21 
+  29 , ICE CREAM GREENTEA ,"  355,000 ","  8,000 ",ml,  44 
+  31 , ICE CREAM MANNGO ,"  180,000 ","  8,000 ",ml,  23 
+  32 , ICE CREAM VANILA ,"  155,000 ","  8,000 ",ml,  19 
+  33 , KACANG TANAH ,"  15,000 ",  250 ,gram,  60 
+  34 , KECAP MANIS ,"  18,000 ",  275 ,ml,  65 
+  35 , KEJU CEDAR ,"  95,000 ","  1,000 ",gram,  95 
+  36 , KEJU MOZARELLA ,"  120,000 ","  1,000 ",gram,  120 
+  37 , KERTAS ROTI ,"  8,000 ",  5 , pcs ,"  1,600 "
+  39 , LADA HITAM ,"  40,000 ",  250 ,gram,  160 
+  40 , LECI BUAH ,"  26,000 ",  16 ,pcs,"  1,625 "
+  41 , MACHA FURE ,"  80,000 ",  100 ,gram,  800 
+  42 , MAIZENA ,"  12,000 ","  1,000 ",gram,  12 
+  43 , MARGARIN ,"  24,000 ","  1,000 ",gram,  24 
+  44 , MARJAN LECI ,"  20,000 ",  460 ,ml,  43 
+  45 , MARJAN STRAWBERRY ,"  20,000 ",  460 ,ml,  43 
+  46 , MAYONAISE ,"  27,000 ","  1,000 ",gram,  27 
+  48 , MERICA ,"  160,000 ","  1,000 ",gram,  160 
+  49 , MILLAC GOLD ,"  75,000 ",1000,ml,75
+  50 , MISO ,"  165,000 ","  1,000 ",gram,  165 
+  51 , NORI LEMBAR ,"  35,000 ",  10 ,pcs,"  3,500 "
+  52 , OREO BUBUK ,"  70,000 ","  1,000 ",gram,  70 
+  53 , PASTA STRAWBERRY ,"  7,500 ",  60 ,ml,  125 
+  54 , PASTA TARO ,"  26,000 ",  100 ,gram,  260 
+  56 , PERISA VANILLA ,"  5,000 ",  20 , gram ,  250 
+  57 , PEWARNA BIRU ,"  5,000 ",  30 ,ml,  167 
+  58 , PLASTIK KLIP ,"  5,000 ",  100 ,pcs,  50 
+  59 , ROYKO AYAM  ,"  38,000 ","  1,000 ",gram,  38 
+  60 , SAGU MUTIARA ,"  28,000 ","  1,000 ",gram,  28 
+  61 , SAGU TANI/ACI ,"  20,000 ","  1,000 ",gram,  20 
+  62 , SANQUIK LEMON ,"  24,000 ",  330 ,gram,  73 
+  63 , SANQUIK MANGGA ,"  60,000 ",  840 ,ml,  71 
+  65 , SAOS CABE ,"  18,000 ","  1,000 ",gram,  18 
+  66 , SAOS KEJU ,"  30,000 ",  500 ,gram,  60 
+  67 , SAOS SACSET CABE ,"  6,000 ",  24 ,pcs,  250 
+  68 , SAOS SACSET TOMAT ,"  6,000 ",  24 ,pcs,  250 
+  69 , SAOS TERIAKI ,"  18,000 ",  275 ,ml,  65 
+  70 , SAOS TIRAM PANDA ,"  42,000 ",  770 ,gram,  55 
+  71 , SAOS TOMAT ,"  13,000 ","  1,000 ",gram,  13 
+  73 , SEDOTAN HITAM BESAR  ,"  35,000 ",  500 ,pcs,  70 
+  74 , SEDOTAN HITAM KECIL ,"  22,000 ",  25 ,pcs,  880 
+  75 , SENDOK MIRUKU ,5000,25,pcs,200
+  76 , SUSU BUBUK ,"  42,000 ",  500 ,gram,  84 
+  77 , TBM ,5000,100,gram,50
+  78 , TEH TUBRUK GOALPARA ,"  14,500 ",  250 ,gram,  58 
+  79 , TEPUNG ROTI ,"  20,000 ","  1,000 ",gram,  20 
+  80 , TERIGU ,"  8,000 ",1000,gram,8
+  82 , THAI TEA ,"  52,000 ",  400 ,gram,  130 
+  83 , THAUSAND ISLAND ,"  27,000 ","  1,000 ",gram,  27 
+  84 , TUSUK SATE ,"  10,000 ",  100 ,pcs,  100 
+  85 , WADAH MIRUKU ,"  70,000 ",  100 ,pcs,  700 
+  86 , WIJEN ,"  9,000 ",  250 ,gram,  36 
+  87 , Miso ,"  60,000 ","  1,000 ",gram,  60 
+,,,,,
+,YOGYA SUPERINDO ALFA,,,,
+No,Bahan, Harga , Quantity , Satuan , Harga Satuan 
+1, AIR MINERAL ,"  36,000 ",  24 , bottle ,"  1,500 "
+2, BUAH MANGGA ,"  35,000 ","  1,000 ", gram ,  35 
+3, DAUN MINT ,"  5,000 ",  150 , gram ,  33 
+4, GULA PASIR ,"  13,000 ","  1,000 ", gram ,  13 
+5, GURITA ,"  150,000 ","  1,000 ", gram ,  150 
+6, HI COOK ,"  21,000 ",  230 , gram ,  91 
+7, LETUCE ,"  17,000 ",  500 , gram ,  34 
+8, MINYAK GORENG ,"  30,000 ","  2,000 ", liter ,  15 
+9, PARSLEY ,"  5,000 ",  150 , gram ,  33 
+10, SPRITE ,"  14,000 ","  1,500 ", liter ,  9 
+11, YAKULT ,"  10,000 ",  5 , ml ,"  2,000 "
+12, YOGHURT ,"  23,000 ",  350 ,Ml,  66 
+,,,,,
+,Toko ACI,,,,
+No,Bahan, Harga , KEMASAN , Satuan , Harga Satuan 
+  1 , BASO SALMON ,"  27,000 ",  500 , gram ,  54 
+  2 , CHIKUWA ,"  57,000 ","  1,000 ", gram ,  57 
+  3 , CINCAU ,"  4,000 ",  500 , gram ,  8 
+  4 , CRAB STICK ,"  54,000 ","  1,000 ", gram ,  54 
+  5 , DAGING BURGER ,"  35,000 ",  10 , pcs ,"  3,500 "
+  7 , KOPI ,"  55,000 ",  250 , gram ,  220 
+  8 , KWETIAW ,"  5,000 ",  500 , gram ,  10 
+  9 , MIE ,"  7,000 ",  500 , gram ,  14 
+  10 , OTAK-OTAK ,"  50,000 ",  40 , pcs ,"  1,250 "
+  11 , SIOMAY ,"  33,000 ",  10 , pcs ,"  3,300 "
+  12 , SMOKED BEEF ,"  36,000 ",  10 , pcs ,"  3,600 "
+  13 , SOSIS BP ,"  38,000 ",  6 , pcs ,"  6,333 "
+  14 , SOSIS CHEESE ,"  37,000 ",  6 , pcs ,"  6,167 "
+  15 , SOSIS ISI 6 ,"  33,000 ",  6 , pcs ,"  5,500 "
+  16 , SOSIS ISI 7 ,"  35,000 ",  7 , pcs ,"  5,000 "
+,,,,,
+,,,,,
+,Om Wega,,,,
+No,Bahan, Harga , KEMASAN , Satuan , Harga Satuan 
+  1 , Ao Nori ,"  400,000 ",  500 , gram ,  800 
+  4 , Brownies ,"  70,000 ",  16 , pcs ,"  4,375 "
+  5 , Bumbu cabe ,"  35,000 ",  500 , ml ,  70 
+  6 , Bumbu Hotplate ,"  93,000 ","  1,000 ", gram ,  93 
+  7 , Bumbu kering ,"  64,000 ","  1,000 ", gram ,  64 
+  8 , Bumbu Minyak ,"  95,000 ","  1,000 ", gram ,  95 
+  10 , Cau Katsu ,"  13,000 ",  360 , gram ,  36 
+  11 , Chicken Katsu ,"  95,000 ","  1,000 ", gram ,  95 
+  12 , Powder Choco prime ,"  130,000 ","  1,000 ", gram ,  130 
+  14 , Powder Greentea ,"  150,000 ","  1,000 ", gram ,  150 
+  15 , Katsuobushi ,"  350,000 ","  1,000 ", gram ,  350 
+  16 , Powder Pink Velvet ,"  150,000 ","  1,000 ", gram ,  150 
+  17 , Powder Candil ,"  35,000 ","  1,000 ", gram ,  35 
+  19 , Puding coklat ,"  130,000 ","  1,000 ", gram ,  130 
+  20 , Puding greentea ,"  130,000 ","  1,000 ", gram ,  130 
+  21 , Puding Manggo ,"  130,000 ","  1,000 ", gram ,  130 
+  23 , Puding Taro ,"  130,000 ","  1,000 ", gram ,  130 
+  24 , Sambel ,"  9,000 ",  300 , ml ,  30 
+  25 , Saus Takoyaki ,"  25,000 ",  250 , ml ,  100 
+  26 , Smotis ,"  120,000 ","  1,000 ", gram ,  120 
+  28 , Soyu ,"  60,000 ","  1,000 ", gram ,  60 
+  29 , Sweet Takoyaki ,"  5,000 ",  125 , gram ,  40 
+  30 , Powder Takoyaki ,"  8,000 ",  280 , gram ,  29 
+  32 , Teh Ocha ,"  65,000 ",  200 , gram ,  275 
+  33 , Vanilla ,"  120,000 ","  1,000 ", gram ,  120 
+,,,,,
+,,,,,
+,,,,,
+NO,MITRA DAGING, Harga , Quantity , Satuan , Harga Satuan 
+1,Daging Sapi,"  105,000 ","  1,000 ", gram ,  105 
+2,French Fries - Shoestring,"  70,000 ","  2,500 ",gram,  30 
+,,,,,
+,,,,,
+,,,,,
+ No ,, Harga , Quantity , Satuan , Harga Satuan 
+1,Bobba Manggo,"  350,000 ","  3,200 ", gram ,  109 
+2,Bobba Strawberry,"  350,000 ","  3,200 ", gram ,  109 
+3,Bobba Kiwi,"  350,000 ","  3,200 ", gram ,  109 
+4,Kiwi Konsentrat,"  255,000 ","  2,500 ", ml ,  102 
+5,Paper Box,,,pcs,
