@@ -4,12 +4,12 @@ Restoran Ale's Place - Untuk Sistem Manajemen Stok Terintegrasi Kasir.
 
 Input  : 9 file CSV mentah di folder `Data Bahan Makanan/`
 Output :
-  - processed_data/dim_kategori_menu.csv
-  - processed_data/dim_bahan_baku.csv
-  - processed_data/dim_menu.csv
-  - processed_data/fact_resep_bom.csv
-  - processed_data/inventory_resto.db (SQLite + Views + FK)
-  - processed_data/schema_and_seed.sql
+  - tugas_mingguan/minggu-1/output/data_bahan_makanan/dim_kategori_menu.csv
+  - tugas_mingguan/minggu-1/output/data_bahan_makanan/dim_bahan_baku.csv
+  - tugas_mingguan/minggu-1/output/data_bahan_makanan/dim_menu.csv
+  - tugas_mingguan/minggu-1/output/data_bahan_makanan/fact_resep_bom.csv
+  - tugas_mingguan/minggu-1/output/data_bahan_makanan/inventory_resto.db (SQLite + Views + FK)
+  - tugas_mingguan/minggu-1/output/data_bahan_makanan/schema_and_seed.sql
 """
 
 from __future__ import annotations
@@ -24,9 +24,10 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
 
-WORKSPACE_DIR = Path(r"D:\0. Dokumen Kuliah\Semester 5\0. Project Capstone")
+MINGGU_1_DIR = Path(__file__).resolve().parents[1]
+WORKSPACE_DIR = Path(__file__).resolve().parents[3]
 RAW_DIR = WORKSPACE_DIR / "Data Bahan Makanan"
-OUT_DIR = WORKSPACE_DIR / "processed_data" / "data_bahan_makanan"
+OUT_DIR = MINGGU_1_DIR / "output" / "data_bahan_makanan"
 
 # Pemetaan nama bahan baku mentah (UPPERCASE) -> nama kanonikal standar
 INGREDIENT_ALIASES: dict[str, str] = {

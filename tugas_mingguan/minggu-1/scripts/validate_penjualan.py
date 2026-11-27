@@ -5,7 +5,8 @@ from pathlib import Path
 
 import pandas as pd
 
-OUT_DIR = Path(r"D:\0. Dokumen Kuliah\Semester 5\0. Project Capstone\processed_data\data_penjualan")
+MINGGU_1_DIR = Path(__file__).resolve().parents[1]
+OUT_DIR = MINGGU_1_DIR / "output" / "data_penjualan"
 
 
 def main() -> None:

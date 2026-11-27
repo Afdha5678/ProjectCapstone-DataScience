@@ -1,16 +1,22 @@
-# 🌐 Draft Plan Minggu 3: Integrasi Web Utama, API & Fitur Penjelasan AI
+# 🌐 Draft Plan Minggu 3: Format Output & Integrasi Logika Stok ke Web Utama
 **Periode Target:** 4 – 10 Desember 2026  
-**Penanggung Jawab Jadwal:** Faris Ambar Susilo (AE) & Seluruh Tim (`A26-CS218`)  
+**Penanggung Jawab Utama Jadwal:** Faris Ambar Susilo (AE) & Seluruh Tim Integrasi  
 **Status:** ⏳ Menunggu Penyelesaian Minggu 2
+
+> [!NOTE]
+> **Pembagian Tugas Resmi Minggu 3 (Sesuai Project Plan Halaman 6):**
+> - **Full-stack (`Aleandre & Alfarisi`):** Pembuatan replikasi aplikasi kasir NutaCloud di web (`React + Node.js + PostgreSQL`).
+> - **Data Science (`Afdha & Hauzan` — Pekerjaan #2):** Penyusunan format output dan integrasi logika konversi stok (`BoM Stock Deduction`), status sisa umur stok (`DOI`), & indikator peringatan stok menipis (`Safety Stock`) ke dasbor web utama bersama tim FS.
+> - **AI Engineer (`Faris & Ayunda` — Pekerjaan #3):** Integrasi model ML forecasting dan fitur Generative AI API (Gemini/OpenAI) ke website.
 
 ---
 
-## Target Kerja Minggu 3 (Jadwal + Rubrik Tech Stack DS)
-1. **Backend API Integration (`src/api.py` — FastAPI):**
-   - Membungkus `bom_engine.py`, `stock_analytics.py`, dan `restock_forecaster.py` menjadi endpoint REST API berformat JSON standar.
-2. **Integrasi Dasbor & Prediksi ke Aplikasi Web Full-Stack (`Dasbor #5`, `Model Prediksi #5`):**
-   - Menghubungkan output konversi stok, status `AMAN/MENIPIS/KRITIS`, *Days of Inventory*, dan rekomendasi belanja besok ke aplikasi web React.js & replikasi kasir NutaCloud yang dibangun tim Full-stack (Aleandre & Alfarisi).
-3. **Integrasi Data ke Fitur Penjelasan Gen AI (`Penyediaan Data AI #1`):**
-   - Menyediakan endpoint/payload JSON terstruktur berisi alasan stok menipis, lonjakan pemakaian, dan keterbatasan data untuk dipakai fitur penjelasan API tim AE/Gen AI.
-4. **Update Master Resep (Jika Balasan Owner Sudah Masuk):**
-   - Memasukkan tambahan resep Top 30 menu baru & stok awal riil dari Bapak Mochamad Ares Fadella ke `dim_menu` & `fact_resep_bom`.
+## Target Kerja Khusus DS Minggu 3
+1. **Penyusunan Format Output Standar (JSON / Skema PostgreSQL):**
+   - Menyiapkan spesifikasi struktur output dari `bom_engine.py` & `stock_analytics.py` (konversi potongan bahan, status `AMAN/MENIPIS/KRITIS`, *Daily Burn Rate*, *DOI*) agar mudah dikonsumsi backend `Node.js` + `PostgreSQL` tim Full-stack.
+2. **Integrasi Dasbor & Logika Stok Bersama Tim Full-stack (`Dasbor #5`):**
+   - Mendampingi Aleandre & Alfarisi menghubungkan alur *upload/input* rekap harian NutaCloud di website ke logika pemotongan stok otomatis dan indikator visual dasbor utama.
+3. **Koordinasi Format Data untuk Tim AE (`AI #1`):**
+   - Memberikan dukungan jika tim AE membutuhkan penyesuaian dataset atau menyelaraskan kode `id_bahan`/`satuan_dasar` antara hasil prediksi ML mereka dengan tabel stok utama.
+4. **Update Master Resep (Jika Balasan Konfirmasi Owner Sudah Masuk):**
+   - Memasukkan tambahan takaran Top 30 menu baru & stok awal riil dari Bapak Mochamad Ares Fadella ke master resep dan melakukan re-sync ke database tim.

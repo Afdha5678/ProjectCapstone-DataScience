@@ -4,10 +4,10 @@ Restoran Ale's Place.
 
 Input  :
   - Data Penjualan/*.csv (13 file laporan kasir mentah)
-  - processed_data/dim_menu.csv (referensi menu resep hasil normalisasi bahan makanan)
-  - processed_data/inventory_resto.db (untuk membangun DWH terpadu ales_place_dwh.db)
+  - tugas_mingguan/minggu-1/output/data_bahan_makanan/dim_menu.csv
+  - tugas_mingguan/minggu-1/output/data_bahan_makanan/inventory_resto.db
 
-Output di processed_data/ :
+Output di tugas_mingguan/minggu-1/output/data_penjualan/ :
   - fact_transaksi.csv              (9.295 transaksi unik bersih di level struk)
   - fact_penjualan_item.csv         (baris penjualan produk bersih + ekstraksi diskon + link id_menu_resep)
   - fact_penyesuaian_transaksi.csv  (Pajak Daerah, Pembulatan, Diskon Nota/Voucher, Pengemasan, Alat Makan TKW)
@@ -28,10 +28,11 @@ from typing import Optional
 
 import pandas as pd
 
-WORKSPACE_DIR = Path(r"D:\0. Dokumen Kuliah\Semester 5\0. Project Capstone")
+MINGGU_1_DIR = Path(__file__).resolve().parents[1]
+WORKSPACE_DIR = Path(__file__).resolve().parents[3]
 SALES_DIR = WORKSPACE_DIR / "Data Penjualan"
-BOM_DIR = WORKSPACE_DIR / "processed_data" / "data_bahan_makanan"
-OUT_DIR = WORKSPACE_DIR / "processed_data" / "data_penjualan"
+BOM_DIR = MINGGU_1_DIR / "output" / "data_bahan_makanan"
+OUT_DIR = MINGGU_1_DIR / "output" / "data_penjualan"
 
 ID_MONTHS = {
     "Januari": "01",

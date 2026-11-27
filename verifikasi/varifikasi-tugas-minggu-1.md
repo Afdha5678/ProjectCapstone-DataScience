@@ -22,42 +22,42 @@ Berdasarkan dokumen **Jadwal Rencana Kerja (Poin #2)** dan **Tabel Fitur Kerja D
 | **1. *Data wrangling* laporan NutaCloud sehingga bersih dari baris non-menu/error** | ✅ **TERPENUHI** | Seluruh **13 file CSV** (Okt 2025 – Okt 2026, total **67.160** baris mentah di luar `Grand Total`) telah dibersihkan dan dinormalisasi menjadi `fact_transaksi.csv` (**9.295** transaksi), `fact_penjualan_item.csv` (**49.240** baris produk), dan `fact_penyesuaian_transaksi.csv` (**17.920** baris pajak, pembulatan, diskon nota, biaya pengemasan, & alat makan TKW). |
 | **2. Penyusunan skema pemetaan resep (*Bill of Materials*) ke master data bahan baku** | ✅ **TERPENUHI** | Seluruh **9 file CSV** resep & bahan baku tahun 2018 telah dinormalisasi menjadi skema relasional 3NF (`dim_kategori_menu`, `dim_bahan_baku`, `dim_menu`, `fact_resep_bom`) dalam format CSV, SQLite (`inventory_resto.db`), dan SQL (`schema_and_seed.sql`) dengan **0 error Foreign Key**. |
 | **3. Tabel *mapping* gramasi resep untuk setiap menu dan varian** | ⚠️ **TERPENUHI (DENGAN CATATAN EKSTERNAL)** | Skema jembatan `map_menu_kasir.csv` (**381** item kasir unik) sudah tersedia dan valid. Sebanyak **103 menu** (**34.289 porsi / 59,0% volume penjualan**) sudah terhubung ke resep gramasi. Sisanya (**240 item F&B baru 2025–2026** + **9 varian ambigu**) belum tersedia di file resep 2018 sehingga telah dibuatkan dokumen permohonan konfirmasi ke Owner. |
-| **4. Pemisahan struktur folder data bersih untuk kolaborasi tim** | ✅ **TERPENUHI** | Seluruh output bersih dipisahkan rapi ke [processed_data/data_bahan_makanan/](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_bahan_makanan) (kebutuhan Web/Stok) dan [processed_data/data_penjualan/](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_penjualan) (kebutuhan DWH/Analisis/Forecasting). |
+| **4. Pemisahan struktur folder data bersih untuk kolaborasi tim** | ✅ **TERPENUHI** | Seluruh output bersih dipisahkan rapi ke [tugas_mingguan/minggu-1/output/data_bahan_makanan/](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_bahan_makanan) (kebutuhan Web/Stok) dan [tugas_mingguan/minggu-1/output/data_penjualan/](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_penjualan) (kebutuhan DWH/Analisis/Forecasting). |
 
 ---
 
 ## 2. Inventaris Lengkap File & Script Hasil Minggu 1
 
-### A. Script ETL & Validasi Otomatis (`scripts/`)
+### A. Script ETL & Validasi Otomatis (`tugas_mingguan/minggu-1/scripts/`)
 | File Script | Fungsi Utama |
 | :--- | :--- |
-| [normalize_bahan_makanan.py](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/scripts/normalize_bahan_makanan.py) | Parser & normalizer 9 file resep/bahan mentah ke skema relasional 3NF (CSV, SQLite, SQL). |
-| [validate_data.py](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/scripts/validate_data.py) | Script audit integritas relasional, satuan dasar, harga nol, dan rekonsiliasi HPP bahan baku. |
-| [clean_penjualan.py](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/scripts/clean_penjualan.py) | ETL normalisasi 13 file laporan NutaCloud, ekstraksi field majemuk/diskon, pemetaan menu kasir $\leftrightarrow$ BoM, dan pembangun DWH terpadu. |
-| [validate_penjualan.py](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/scripts/validate_penjualan.py) | Script audit konservasi baris, integritas tanggal, rekonsiliasi 100% struk, dan verifikasi `ales_place_dwh.db`. |
+| [normalize_bahan_makanan.py](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/scripts/normalize_bahan_makanan.py) | Parser & normalizer 9 file resep/bahan mentah ke skema relasional 3NF (CSV, SQLite, SQL). |
+| [validate_data.py](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/scripts/validate_data.py) | Script audit integritas relasional, satuan dasar, harga nol, dan rekonsiliasi HPP bahan baku. |
+| [clean_penjualan.py](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/scripts/clean_penjualan.py) | ETL normalisasi 13 file laporan NutaCloud, ekstraksi field majemuk/diskon, pemetaan menu kasir $\leftrightarrow$ BoM, dan pembangun DWH terpadu. |
+| [validate_penjualan.py](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/scripts/validate_penjualan.py) | Script audit konservasi baris, integritas tanggal, rekonsiliasi 100% struk, dan verifikasi `ales_place_dwh.db`. |
 
-### B. Output Bersih Data Bahan Makanan (`processed_data/data_bahan_makanan/`)
+### B. Output Bersih Data Bahan Makanan (`tugas_mingguan/minggu-1/output/data_bahan_makanan/`)
 | File Output | Ukuran | Jumlah Baris / Entitas | Keterangan |
 | :--- | :---: | :---: | :--- |
-| [dim_kategori_menu.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_bahan_makanan/dim_kategori_menu.csv) | 124 B | **8** kategori | DESSERT, DONBURI, HOTPLATE, MINUMAN, NASI GORENG / OMURICE, RAMEN, SALAD, SNACK. |
-| [dim_bahan_baku.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_bahan_makanan/dim_bahan_baku.csv) | 13,9 KB | **178** bahan baku | Master bahan baku terstandarisasi (`gram`, `ml`, `pcs`), dilengkapi `isi_kemasan_beli`, `harga_beli_kemasan`, `harga_satuan_dasar`, dan `is_packaging`. |
-| [dim_menu.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_bahan_makanan/dim_menu.csv) | 7,0 KB | **135** menu | **129** menu jual (`is_sellable=1`) dan **6** kuah/batch dasar (`is_sub_recipe=1`), beserta `total_hpp_standar` dan `total_hpp_excel_raw`. |
-| [fact_resep_bom.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_bahan_makanan/fact_resep_bom.csv) | 43,2 KB | **1.579** baris BOM | Komposisi takaran per **1 porsi jual** (unique pair `id_menu` + `id_bahan`). |
-| [inventory_resto.db](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_bahan_makanan/inventory_resto.db) | 114,7 KB | 4 tabel + 1 view | Database SQLite dengan `FOREIGN KEY` aktif dan view `v_resep_lengkap`. |
-| [schema_and_seed.sql](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_bahan_makanan/schema_and_seed.sql) | 335,6 KB | DDL + DML | Script SQL `CREATE TABLE`, `CREATE VIEW`, dan `INSERT` siap migrasi ke MySQL/PostgreSQL/SQLite. |
-| [AUDIT_TINJAUAN_BAHAN_MAKANAN.md](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_bahan_makanan/AUDIT_TINJAUAN_BAHAN_MAKANAN.md) | 9,0 KB | Dokumen Audit | Catatan rincian selisih HPP dan kejanggalan resep 2018. |
+| [dim_kategori_menu.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_bahan_makanan/dim_kategori_menu.csv) | 124 B | **8** kategori | DESSERT, DONBURI, HOTPLATE, MINUMAN, NASI GORENG / OMURICE, RAMEN, SALAD, SNACK. |
+| [dim_bahan_baku.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_bahan_makanan/dim_bahan_baku.csv) | 13,9 KB | **178** bahan baku | Master bahan baku terstandarisasi (`gram`, `ml`, `pcs`), dilengkapi `isi_kemasan_beli`, `harga_beli_kemasan`, `harga_satuan_dasar`, dan `is_packaging`. |
+| [dim_menu.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_bahan_makanan/dim_menu.csv) | 7,0 KB | **135** menu | **129** menu jual (`is_sellable=1`) dan **6** kuah/batch dasar (`is_sub_recipe=1`), beserta `total_hpp_standar` dan `total_hpp_excel_raw`. |
+| [fact_resep_bom.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_bahan_makanan/fact_resep_bom.csv) | 43,2 KB | **1.579** baris BOM | Komposisi takaran per **1 porsi jual** (unique pair `id_menu` + `id_bahan`). |
+| [inventory_resto.db](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_bahan_makanan/inventory_resto.db) | 114,7 KB | 4 tabel + 1 view | Database SQLite dengan `FOREIGN KEY` aktif dan view `v_resep_lengkap`. |
+| [schema_and_seed.sql](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_bahan_makanan/schema_and_seed.sql) | 335,6 KB | DDL + DML | Script SQL `CREATE TABLE`, `CREATE VIEW`, dan `INSERT` siap migrasi ke MySQL/PostgreSQL/SQLite. |
+| [AUDIT_TINJAUAN_BAHAN_MAKANAN.md](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/docs/AUDIT_TINJAUAN_BAHAN_MAKANAN.md) | 9,0 KB | Dokumen Audit | Catatan rincian selisih HPP dan kejanggalan resep 2018 (di `minggu-1/docs/`). |
 
-### C. Output Bersih Data Penjualan (`processed_data/data_penjualan/`)
+### C. Output Bersih Data Penjualan (`tugas_mingguan/minggu-1/output/data_penjualan/`)
 | File Output | Ukuran | Jumlah Baris / Entitas | Keterangan |
 | :--- | :---: | :---: | :--- |
-| [fact_transaksi.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_penjualan/fact_transaksi.csv) | 3,21 MB | **9.295** transaksi | Header transaksi unik di level struk (`waktu_transaksi`, `channel_penjualan`, `brand_store`, `pelayan`, `area_lantai`, `nomor_meja`, `pax`, `is_internal_order`, dan rincian finansial). |
-| [fact_penjualan_item.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_penjualan/fact_penjualan_item.csv) | 5,98 MB | **49.240** baris item | Baris produk terjual bersih + ekstraksi diskon item + link `id_menu_resep`. |
-| [fact_penyesuaian_transaksi.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_penjualan/fact_penyesuaian_transaksi.csv) | 1,14 MB | **17.920** baris | Baris non-menu: `PAJAK_DAERAH`, `PEMBULATAN`, `DISKON_NOTA`, `VOUCHER_NOTA`, `BIAYA_PENGEMASAN`, dan `ALAT_MAKAN_TKW`. |
-| [map_menu_kasir.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_penjualan/map_menu_kasir.csv) | 26,1 KB | **381** item unik | Kamus pemetaan item NutaCloud $\leftrightarrow$ `dim_menu` beserta `match_status`, total qty, dan omzet net. |
-| [ales_place_dwh.db](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/processed_data/data_penjualan/ales_place_dwh.db) | 11,29 MB | 8 tabel + 2 view | SQLite Data Warehouse terpadu (4 tabel BoM + 4 tabel Penjualan/Mapping + view `v_resep_lengkap` & `v_pemakaian_bahan_harian`). |
+| [fact_transaksi.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_penjualan/fact_transaksi.csv) | 3,21 MB | **9.295** transaksi | Header transaksi unik di level struk (`waktu_transaksi`, `channel_penjualan`, `brand_store`, `pelayan`, `area_lantai`, `nomor_meja`, `pax`, `is_internal_order`, dan rincian finansial). |
+| [fact_penjualan_item.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_penjualan/fact_penjualan_item.csv) | 5,98 MB | **49.240** baris item | Baris produk terjual bersih + ekstraksi diskon item + link `id_menu_resep`. |
+| [fact_penyesuaian_transaksi.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_penjualan/fact_penyesuaian_transaksi.csv) | 1,14 MB | **17.920** baris | Baris non-menu: `PAJAK_DAERAH`, `PEMBULATAN`, `DISKON_NOTA`, `VOUCHER_NOTA`, `BIAYA_PENGEMASAN`, dan `ALAT_MAKAN_TKW`. |
+| [map_menu_kasir.csv](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_penjualan/map_menu_kasir.csv) | 26,1 KB | **381** item unik | Kamus pemetaan item NutaCloud $\leftrightarrow$ `dim_menu` beserta `match_status`, total qty, dan omzet net. |
+| [ales_place_dwh.db](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/output/data_penjualan/ales_place_dwh.db) | 11,29 MB | 8 tabel + 2 view | SQLite Data Warehouse terpadu (4 tabel BoM + 4 tabel Penjualan/Mapping + view `v_resep_lengkap` & `v_pemakaian_bahan_harian`). |
 
-### D. Dokumen Tindak Lanjut ke Owner (Root Workspace)
-- [LAPORAN_KONFIRMASI_DATA_OWNER.md](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/LAPORAN_KONFIRMASI_DATA_OWNER.md) — Laporan berbahasa bisnis untuk Pak Ares berisi daftar Top 30 menu terlaris yang belum ada resepnya, klarifikasi takaran 2018, pertanyaan operasional *safety stock*, serta draft pesan WhatsApp.
+### D. Dokumen Tindak Lanjut ke Owner (`tugas_mingguan/minggu-1/docs/`)
+- [LAPORAN_KONFIRMASI_DATA_OWNER.md](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/docs/LAPORAN_KONFIRMASI_DATA_OWNER.md) — Laporan berbahasa bisnis untuk Pak Ares berisi daftar Top 30 menu terlaris yang belum ada resepnya, klarifikasi takaran 2018, pertanyaan operasional *safety stock*, serta draft pesan WhatsApp.
 
 ---
 
@@ -146,7 +146,7 @@ Hasil audit pemetaan seluruh **381 item unik** (total **58.102 porsi**, omzet ne
 
 > [!NOTE]
 > **Kesimpulan Cakupan Data:**  
-> Meskipun cakupan resep saat ini baru **59,0%** karena keterbatasan file resep 2018 yang diberikan UMKM, hal ini **tidak menghambat** pekerjaan Minggu 2 karena mesin *BoM Stock Deduction* dan *Safety Stock* membaca tabel `dim_menu` & `fact_resep_bom` secara dinamis. Selain itu, Top 30 menu pada `UNMAPPED_FNB` saja sudah mewakili **12.190 porsi (21,0% tambahan)**, yang apabila dikonfirmasi Owner via [LAPORAN_KONFIRMASI_DATA_OWNER.md](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/LAPORAN_KONFIRMASI_DATA_OWNER.md) akan langsung mengangkat cakupan ke **80,0%**.
+> Meskipun cakupan resep saat ini baru **59,0%** karena keterbatasan file resep 2018 yang diberikan UMKM, hal ini **tidak menghambat** pekerjaan Minggu 2 karena mesin *BoM Stock Deduction* dan *Safety Stock* membaca tabel `dim_menu` & `fact_resep_bom` secara dinamis. Selain itu, Top 30 menu pada `UNMAPPED_FNB` saja sudah mewakili **12.190 porsi (21,0% tambahan)**, yang apabila dikonfirmasi Owner via [LAPORAN_KONFIRMASI_DATA_OWNER.md](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/docs/LAPORAN_KONFIRMASI_DATA_OWNER.md) akan langsung mengangkat cakupan ke **80,0%**.
 
 ---
 
@@ -156,7 +156,7 @@ Hasil audit pemetaan seluruh **381 item unik** (total **58.102 porsi**, omzet ne
 
 ### Checklist Persiapan Awal Minggu 2:
 1. [ ] **Commit & Push** file terbaru (`LAPORAN_KONFIRMASI_DATA_OWNER.md` & `verifikasi/varifikasi-tugas-minggu-1.md`) ke repository GitHub (`origin/main`, posisi terakhir di commit `609a6eb`).
-2. [ ] **Kirim** [LAPORAN_KONFIRMASI_DATA_OWNER.md](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/LAPORAN_KONFIRMASI_DATA_OWNER.md) ke PIC UMKM (Bapak Mochamad Ares Fadella) untuk melengkapi Top 30 menu baru, stok awal, dan batas *safety stock* secara paralel.
+2. [ ] **Kirim** [LAPORAN_KONFIRMASI_DATA_OWNER.md](file:///d:/0.%20Dokumen%20Kuliah/Semester%205/0.%20Project%20Capstone/tugas_mingguan/minggu-1/docs/LAPORAN_KONFIRMASI_DATA_OWNER.md) ke PIC UMKM (Bapak Mochamad Ares Fadella) untuk melengkapi Top 30 menu baru, stok awal, dan batas *safety stock* secara paralel.
 3. [ ] **Mulai Pengembangan Modul Minggu 2:**
    - Modul Python ***BoM Stock Deduction*** (membaca `ales_place_dwh.db` / `inventory_resto.db` + mencatat riwayat mutasi stok).
    - Modul ***Daily Burn Rate*, *Safety Stock*, *Days of Inventory (DOI)***, serta **Prediksi Rekomendasi *Restock* Besok**.
