@@ -83,6 +83,7 @@ Jembatan antara `nama_item_kasir` (NutaCloud) dan `dim_menu.id_menu`:
 ## 4. Kamus Data: Dataset Siap-AI untuk Tim AE (`data_for_ai/`)
 
 File yang tersedia:
+- `METADATA_DATASET_AI.md` (penjelasan variabel lengkap dalam format Markdown langsung di folder dataset AI)
 - `daily_usage_full_features.csv` (**63.756** baris = `396` hari kalender $\times$ `161` bahan aktif di BoM)
 - `train_daily_usage.csv` (**58.765** baris: `2025-10-01` s.d. `2026-09-30`)
 - `test_daily_usage.csv` (**4.991** baris: `2026-10-01` s.d. `2026-10-31`)

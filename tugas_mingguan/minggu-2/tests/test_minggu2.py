@@ -110,14 +110,19 @@ class TestMinggu2DS(unittest.TestCase):
         self.assertGreater(sapi["saran_beli_kemasan"], 0)
 
     def test_ai_dataset_anti_leakage(self) -> None:
-        """Pastikan train/test split untuk tim AE benar-benar bebas tumpang tindih & lag bersifat kausal."""
+        """Pastikan train/test split & metadata Markdown untuk tim AE valid dan bebas tumpang tindih."""
         ai_dir = MINGGU_2_DIR / "output" / "data_for_ai"
         train_df = pd.read_csv(ai_dir / "train_daily_usage.csv")
         test_df = pd.read_csv(ai_dir / "test_daily_usage.csv")
+        meta_md_path = ai_dir / "METADATA_DATASET_AI.md"
 
         self.assertLess(train_df["tanggal"].max(), test_df["tanggal"].min())
         self.assertEqual(train_df["tanggal"].max(), "2026-09-30")
         self.assertEqual(test_df["tanggal"].min(), "2026-10-01")
+        self.assertTrue(meta_md_path.exists())
+        meta_text = meta_md_path.read_text(encoding="utf-8")
+        self.assertIn("target_pemakaian", meta_text)
+        self.assertIn("lag_1", meta_text)
 
         # Cek kausalitas lag_1 untuk DAGING SAPI (id_bahan = 41) di hari pertama test (2026-10-01)
         last_train_val = train_df[

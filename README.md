@@ -26,7 +26,7 @@
     ├── minggu-2/                       # Algoritma BoM, Safety Stock/DOI, EDA, Data AI, & Streamlit
     │   ├── plan-minggu-2.md
     │   ├── docs/                       # DATA_DICTIONARY.md, EDA_INSIGHT_OPERASIONAL.md
-    │   ├── notebooks/                  # EDA_Operasional_dan_Data_AI.ipynb (Jupyter Notebook EDA + grafik)
+    │   ├── notebooks/                  # EDA_Penjualan_dan_Bahan_Baku.ipynb (Jupyter Notebook EDA + grafik)
     │   ├── scripts/                    # prepare_eda_and_ai_data.py
     │   ├── src/                        # bom_engine.py, stock_analytics.py
     │   ├── app/                        # dashboard_streamlit.py
